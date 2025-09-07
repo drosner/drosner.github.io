@@ -26,6 +26,11 @@
       --radius: 14px;
       --shadow: 0 10px 30px rgba(0,0,0,.35);
     }
+    .hero-flex {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  }
     * { box-sizing: border-box }
     html, body { margin: 0; background: radial-gradient(1200px 800px at 20% -10%, #172554 0%, var(--bg) 45%), var(--bg); color: var(--text); font-family: system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif; line-height: 1.55; }
     a { color: var(--link); text-decoration: none }
@@ -90,32 +95,20 @@
         <div class="card">
           <div class="kicker">Buckingham Township</div>
           <h1>Paul Calderaio is Bad for Buckingham</h1>
-          <p class="sub">For over 20 years, Paul Calderaio and a closed circle of politicians, connected friedns, and vendors has put insiders first. It’s time to put residents back at the center of every decision in Buckingham.</p>
-          <div class="badges">
+          <div class="hero-flex sub">
+            <img src="paul.jpg" alt="Buckingham Township" style="width:64px;height:64px;object-fit:cover;margin-right:18px;border-radius:14px;box-shadow:0 4px 18px rgba(0,0,0,.18);" />
+            <span>
+              For over 20 years, Paul Calderaio and a closed circle of politicians, connected friends, and vendors has put insiders first. It’s time to put residents back at the center of every decision in Buckingham. Residents deserve leaders who disclose material issues, have basic managerial experience, and demonstrate respect for all residents regardless of how long they have lived here.
+            </span>
+          </div>
+            <div class="badges">
             <div class="badge">Cronyism</div>
             <div class="badge">Warehouse Controversy</div>
             <div class="badge">Costly Legal Fees</div>
             <div class="badge">Eminent Domain Abuse</div>
             <div class="badge">No Transparency</div>
+            <div class="badge">Controled by Soliticor</div>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="why">
-      <div class="wrap grid">
-        <div class="col-6 panel">
-          <h2>Friends Over Residents</h2>
-          <p>Instead of demonstrating business or management experience, Paul leans on political tenure and long-time alliances. Vendors and donors benefit; residents pay the price.</p>
-          <p class="small">Both the township solicitor and engineer have supported local party campaigns while enjoying favorable treatment and unchecked billing practices.</p>
-        </div>
-        <div class="col-6 panel callout" role="note" aria-label="Key takeaway">
-          <h3>Bottom Line</h3>
-          <ul>
-            <li>Insiders first, residents last.</li>
-            <li>Millions to outside vendors with weak oversight.</li>
-            <li>Obstruction of public records requests—at taxpayer expense.</li>
-          </ul>
         </div>
       </div>
     </section>
@@ -132,14 +125,19 @@
               <li>Helped political allies push a massive warehouse; attacked residents who raised concerns.</li>
               <li>Politically connected landowners leveraged access to advance early approvals.</li>
               <li>Developers reassured leadership that neighbors were “taken care of.”</li>
-              <li>Application reportedly pulled until after the election—then refiled weeks later.</li>
+              <li>Paul and the other supervisors requested the developer to withdrawl their application until after the election—then refiled weeks later.</li>
               <li>Staged optics at hearings while granting a key vote that aided the developer on appeal.</li>
             </ul>
           </article>
 
           <article class="col-6 panel">
             <h3>Abuse of Eminent Domain</h3>
-            <p>Paul led efforts to seize a farmer’s land for a spray field despite community pushback. If it can happen to one resident, it can happen to anyone.</p>
+            <ul>
+              <li>Paul led the Township's efforts to eminent domain to seize land from a farmer for a spray field.</li>
+              <li>Ignored community concerns and pushed the project forward.</li>
+              <li>The farmer attempted to resolve the matter in good faith but as usual Paul put his, and his close knit group of friends, first.</li>
+            </ul>
+            <p>Paul's actions set a dangerous precedent for all residents. <span class="tag">If Paul can take away a farmer's land in town he can do the same to others.</span></p>
           </article>
 
           <article class="col-6 panel">
@@ -158,7 +156,7 @@
 
           <article class="col-6 panel">
             <h3>Lack of Qualifications</h3>
-            <p>Background in sales; no management or operational experience. Routinely defers to vendors who profit from township contracts.</p>
+            <p>Paul is a salesman; he has no management or operational experience. Routinely defers to vendors who profit because Paul lacks professional experience to challenge them.</p>
           </article>
 
           <article class="col-6 panel">
@@ -166,8 +164,6 @@
             <p>Residents deserve leaders who disclose material issues, avoid conflicts, and demonstrate steady judgment in the public interest.</p>
           </article>
         </div>
-
-        <p class="source-note">Note: This page reflects resident concerns and opinions based on public meetings, budget records, correspondence, and community reports. Where applicable, supporting documents should be linked below.</p>
       </div>
     </section>
 
