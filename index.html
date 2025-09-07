@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Paul Calderio: Bad for Buckingham</title>
+  <meta name="description" content="Why Buckingham Township deserves better leadership. Learn how cronyism, bad decisions, and poor transparency have hurt residents—and how you can get involved." />
+
+  <!-- Open Graph / Sharing -->
+  <meta property="og:title" content="Paul Calderio: Bad for Buckingham" />
+  <meta property="og:description" content="A clear case for change in Buckingham Township leadership." />
+  <meta property="og:type" content="website" />
+
+  <style>
+    :root {
+      --bg: #0f172a;         /* slate-900 */
+      --panel: #111827;      /* gray-900 */
+      --text: #e5e7eb;       /* gray-200 */
+      --muted: #9ca3af;      /* gray-400 */
+      --accent: #ef4444;     /* red-500 */
+      --accent-2: #f59e0b;   /* amber-500 */
+      --ok: #10b981;         /* emerald-500 */
+      --link: #60a5fa;       /* blue-400 */
+      --card: #0b1223;
+      --maxw: 1080px;
+      --radius: 14px;
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+    }
+    * { box-sizing: border-box }
+    html, body { margin: 0; background: radial-gradient(1200px 800px at 20% -10%, #172554 0%, var(--bg) 45%), var(--bg); color: var(--text); font-family: system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif; line-height: 1.55; }
+    a { color: var(--link); text-decoration: none }
+    a:hover { text-decoration: underline }
+    .wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 20px }
+    header { position: sticky; top: 0; backdrop-filter: saturate(140%) blur(8px); background: rgba(8,12,24,.65); border-bottom: 1px solid rgba(255,255,255,.06); z-index: 8 }
+    nav { display: flex; align-items: center; justify-content: space-between; padding: 14px 0 }
+    .brand { display: flex; gap:12px; align-items: center; font-weight: 700; letter-spacing: .3px }
+    .brand .dot { width: 12px; height: 12px; border-radius: 50%; background: var(--accent) }
+    .navlinks a { margin-left: 16px; font-weight: 600; color: #cbd5e1 }
+    .navlinks a.btn { background: linear-gradient(135deg, var(--accent), #dc2626); padding: 10px 14px; border-radius: 10px; color: white; box-shadow: var(--shadow); }
+    .hero { padding: 60px 0 30px }
+    .hero .card { background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02)); border: 1px solid rgba(255,255,255,.08); border-radius: 20px; padding: 28px; box-shadow: var(--shadow) }
+    h1 { font-size: clamp(28px, 5vw, 44px); line-height: 1.1; margin: 0 0 12px }
+    .sub { color: var(--muted); font-size: 18px; margin: 0 0 18px }
+    .badges { display:flex; flex-wrap:wrap; gap:10px; margin: 14px 0 0 }
+    .badge { background:#111527; color:#c7d2fe; border:1px solid rgba(255,255,255,.08); padding:8px 10px; border-radius: 999px; font-size: 13px; }
+    .cta { display:flex; gap:12px; flex-wrap:wrap; margin-top: 16px }
+    .cta .btn { display:inline-block; background: linear-gradient(135deg, var(--accent), #dc2626); color:#fff; padding:12px 16px; border-radius:12px; font-weight: 700 }
+    .cta .btn.secondary { background: linear-gradient(135deg, #16a34a, #059669) }
+    section { padding: 30px 0 }
+    .grid { display:grid; gap:18px; grid-template-columns: repeat(12, 1fr) }
+    .col-6 { grid-column: span 6 }
+    .col-12 { grid-column: span 12 }
+    @media (max-width: 900px){ .col-6{ grid-column: span 12 } }
+    .panel { background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.015)); border:1px solid rgba(255,255,255,.08); border-radius: var(--radius); padding: 18px; box-shadow: var(--shadow) }
+    h2 { font-size: clamp(22px, 3.4vw, 30px); margin: 0 0 12px }
+    h3 { font-size: 18px; margin: 0 0 8px; color: #fca5a5 }
+    ul { margin: 0; padding-left: 18px }
+    .callout { background: linear-gradient(135deg, rgba(239,68,68,.15), rgba(245,158,11,.12)); border:1px solid rgba(239,68,68,.35); }
+    .ok { color: var(--ok) }
+    .divider { height:1px; background: linear-gradient(90deg, transparent, rgba(255,255,255,.12), transparent); margin: 26px 0 }
+    .kicker { text-transform: uppercase; letter-spacing: .2em; color: #93c5fd; font-size: 12px; margin-bottom: 6px }
+    .footer { color: #9aa4b2; font-size: 14px; padding: 24px 0 40px }
+    .twocol { columns: 2; column-gap: 18px }
+    @media (max-width: 720px){ .twocol { columns: 1 } }
+    .small { font-size: 14px; color: #a7b0bf }
+    .alert { background: #1b0b0b; border:1px solid rgba(239,68,68,.35); color:#fecaca; padding: 10px 12px; border-radius: 10px; }
+    form { display: grid; gap: 10px; grid-template-columns: 1fr 1fr; }
+    form input, form textarea { width: 100%; padding: 12px 12px; border-radius: 10px; background: #0a1020; border:1px solid rgba(255,255,255,.08); color: var(--text) }
+    form textarea { min-height: 120px; grid-column: 1 / -1 }
+    form .actions { grid-column: 1 / -1; display:flex; gap:12px; flex-wrap: wrap }
+    .tag { font-weight: 700; color: #fca5a5 }
+    .source-note { font-size: 13px; color: #c7cdd9 }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <nav aria-label="Primary">
+        <div class="brand"><span class="dot" aria-hidden="true"></span> <span>Better Buckingham</span></div>
+        <div class="navlinks">
+          <a href="#why">Why This Matters</a>
+          <a href="#issues">Key Issues</a>
+          <a href="#act" class="btn">Get Involved</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <div class="card">
+          <div class="kicker">Buckingham Township</div>
+          <h1>Paul Calderio is Bad for Buckingham</h1>
+          <p class="sub">For over 20 years, a closed circle of politicians and vendors has put insiders first. It’s time to put residents back at the center of every decision.</p>
+          <div class="badges">
+            <div class="badge">Cronyism</div>
+            <div class="badge">Warehouse Controversy</div>
+            <div class="badge">Costly Legal Fees</div>
+            <div class="badge">Eminent Domain Abuse</div>
+            <div class="badge">No Transparency</div>
+          </div>
+          <div class="cta">
+            <a class="btn" href="#act">Join the Effort</a>
+            <a class="btn secondary" href="#issues">Read the Case</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="why">
+      <div class="wrap grid">
+        <div class="col-6 panel">
+          <h2>Friends Over Residents</h2>
+          <p>Instead of demonstrating business or management experience, Paul leans on political tenure and long-time alliances. Vendors and donors benefit; residents pay the price.</p>
+          <p class="small">Both the township solicitor and engineer have supported local party campaigns while enjoying favorable treatment and unchecked billing practices.</p>
+        </div>
+        <div class="col-6 panel callout" role="note" aria-label="Key takeaway">
+          <h3>Bottom Line</h3>
+          <ul>
+            <li>Insiders first, residents last.</li>
+            <li>Millions to outside vendors with weak oversight.</li>
+            <li>Obstruction of public records requests—at taxpayer expense.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="issues">
+      <div class="wrap">
+        <h2>Key Issues</h2>
+        <div class="divider"></div>
+
+        <div class="grid">
+          <article class="col-6 panel">
+            <h3>Warehouse Controversy</h3>
+            <ul>
+              <li>Helped political allies push a massive warehouse; attacked residents who raised concerns.</li>
+              <li>Politically connected landowners leveraged access to advance early approvals.</li>
+              <li>Developers reassured leadership that neighbors were “taken care of.”</li>
+              <li>Application reportedly pulled until after the election—then refiled weeks later.</li>
+              <li>Staged optics at hearings while granting a key vote that aided the developer on appeal.</li>
+            </ul>
+          </article>
+
+          <article class="col-6 panel">
+            <h3>Abuse of Eminent Domain</h3>
+            <p>Paul led efforts to seize a farmer’s land for a spray field despite community pushback. If it can happen to one resident, it can happen to anyone.</p>
+          </article>
+
+          <article class="col-6 panel">
+            <h3>Protecting Donors & Vendors</h3>
+            <ul>
+              <li>Refused to investigate <span class="tag">tens of thousands</span> in questionable invoices from a campaign-donor engineer.</li>
+              <li>Supported legal action against residents who questioned excessive fees.</li>
+              <li>Outside vendor payments obscured in budgets; transparency remains poor.</li>
+            </ul>
+          </article>
+
+          <article class="col-6 panel">
+            <h3>Hostile to Transparency</h3>
+            <p>Spent significant taxpayer dollars fighting lawful public records requests, reducing accountability while legal bills soared.</p>
+          </article>
+
+          <article class="col-6 panel">
+            <h3>Lack of Qualifications</h3>
+            <p>Background in sales; no management or operational experience. Routinely defers to vendors who profit from township contracts.</p>
+          </article>
+
+          <article class="col-6 panel">
+            <h3>Public Confidence</h3>
+            <p>Residents deserve leaders who disclose material issues, avoid conflicts, and demonstrate steady judgment in the public interest.</p>
+          </article>
+        </div>
+
+        <p class="source-note">Note: This page reflects resident concerns and opinions based on public meetings, budget records, correspondence, and community reports. Where applicable, supporting documents should be linked below.</p>
+      </div>
+    </section>
+
+    <section id="docs">
+      <div class="wrap panel">
+        <h2>Source Documents & References</h2>
+        <p class="small">Add links to agendas, minutes, budget line items, invoices, RTK responses, and correspondence here for verification.</p>
+        <ul>
+          <li><a href="#" aria-disabled="true">Warehouse Application Timeline (PDF)</a></li>
+          <li><a href="#" aria-disabled="true">Engineering Invoices (10-Year Sample)</a></li>
+          <li><a href="#" aria-disabled="true">Legal Fees & Budget Extract</a></li>
+          <li><a href="#" aria-disabled="true">Public Records Request Filings</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="act">
+      <div class="wrap grid">
+        <div class="col-6 panel">
+          <h2>Get Involved</h2>
+          <ul>
+            <li><strong>Show up:</strong> Attend Board of Supervisors meetings; speak during public comment.</li>
+            <li><strong>Stay informed:</strong> Join our email list for updates and calls to action.</li>
+            <li><strong>Volunteer:</strong> Help canvass, flyer, or compile public documents.</li>
+            <li><strong>Share:</strong> Post this page, talk to neighbors, and encourage accountability.</li>
+          </ul>
+          <div class="divider"></div>
+          <p class="alert" role="alert">Your voice matters. The quickest way to change is informed residents showing up—consistently.</p>
+        </div>
+
+        <div class="col-6 panel">
+          <h2>Stay in the Loop</h2>
+          <form onsubmit="event.preventDefault(); this.reset(); alert('Thanks! We\'ll be in touch.');" aria-label="Sign up form">
+            <input type="text" name="name" placeholder="Full name" aria-label="Full name" required />
+            <input type="email" name="email" placeholder="Email address" aria-label="Email address" required />
+            <textarea name="message" placeholder="How would you like to help? (optional)" aria-label="Message"></textarea>
+            <div class="actions">
+              <button class="btn" type="submit">Sign Up</button>
+              <a class="btn secondary" href="#docs">See Documents</a>
+            </div>
+            <p class="small">We respect your privacy. Your info won’t be shared.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap panel">
+      <h2>The Bottom Line</h2>
+      <div class="twocol">
+        <p><strong>Pattern of behavior:</strong> Favoritism toward allies and donors, indifference to resident concerns, costly deference to outside vendors, and resistance to transparency.</p>
+        <p><strong>What Buckingham deserves:</strong> Competent, transparent, resident-first leadership with real oversight and clear budgets.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer">
+      <div>© <span id="y"></span> Better Buckingham • Built by residents, for residents.</div>
+      <div class="small">This site is political speech and opinion. If you spot an error, <a href="#act">contact us</a> with the source and we’ll update.</div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
